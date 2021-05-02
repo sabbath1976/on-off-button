@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+section {
+    margin: 10rem;
+    position: relative;
+}
+
+.oval {
+    width: 10rem;
+    height: 5rem;
+    background-color: #ff1900;
+    border-radius: 3rem;
+}
+
+.circle {
+    width: 5rem;
+    height: 5rem;
+    background-color: #c6d26c;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* .circle:active {
+
+} */
