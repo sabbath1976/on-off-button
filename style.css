@@ -16,6 +16,11 @@ section {
     position: relative;
 }
 
+.oval,
+.circle {
+    transition: all 0.35s;
+}
+
 .oval {
     width: 10rem;
     height: 5rem;
@@ -34,6 +39,10 @@ section {
     left: 0;
 }
 
-/* .circle:active {
+.circle:active {
+    transform: translateX(100%);
+}
 
-} */
+.circle:active + .oval {
+    background-color: #76e000;
+}
